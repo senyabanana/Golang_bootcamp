@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day00" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day01" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day03" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day04" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day05" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day06" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day07" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day08" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/day09" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/team00" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/team01" vcs="Git" />
+  </component>
+</project>

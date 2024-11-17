@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:13
+    container_name: anomaly_detection_db
+    environment:
+      POSTGRES_USER: name
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: anomaly_detection
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

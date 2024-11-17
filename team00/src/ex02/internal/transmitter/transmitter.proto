@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package transmitter;
+
+option go_package = ".;transmitter";
+
+message FrequencyMessage {
+  string session_id = 1;
+  double frequency = 2;
+  string timestamp = 3;
+}
+
+service TransmitterService {
+  rpc StreamFrequencies (FrequencyRequest) returns (stream FrequencyMessage);
+}
+
+message FrequencyRequest {}

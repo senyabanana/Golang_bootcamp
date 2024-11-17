@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Home</title>
+</head>
+<body>
+<h1>Welcome to the Blog</h1>
+{{range .}}
+<div>
+    <h2><a href="/post?id={{.ID}}">{{.Title}}</a></h2>
+    <p>{{.CreatedAt}}</p>
+    <p>{{.Content}}</p>
+</div>
+{{else}}
+<p>No posts available.</p>
+{{end}}
+
+<div>
+    <a href="/admin">Admin Panel</a>
+</div>
+</body>
+</html>

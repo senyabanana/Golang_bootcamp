@@ -1,0 +1,14 @@
+/etc/stove/config.xml
+/Users/baker/recipes/database.xml
+/Users/baker/recipes/database_version3.yaml
+/var/log/orders.log
+/Users/baker/pokemon.avi
+/etc/nginx/nginx.conf
+/usr/local/bin/backup.sh
+/home/baker/.bashrc
+/home/baker/.vimrc
+/var/www/html/index.html
+/etc/hosts
+/usr/share/dict/words
+/var/log/syslog
+/tmp/tempfile.txt

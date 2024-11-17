@@ -1,0 +1,14 @@
+/etc/stove/config.xml
+/Users/baker/recipes/database.xml
+/Users/baker/recipes/new_database.yaml
+/var/log/orders.log
+/Users/baker/pokemon.avi
+/etc/systemd/system/very_important/stash_location.jpg
+/etc/nginx/nginx.conf
+/usr/local/bin/backup.sh
+/home/baker/.bashrc
+/home/baker/.vimrc
+/var/www/html/index.html
+/etc/hosts
+/var/log/syslog
+/tmp/new_tempfile.txt

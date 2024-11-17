@@ -1,0 +1,21 @@
+go tool pprof cpu.prof
+File: main
+Type: cpu
+Time: Nov 12, 2024 at 9:05pm (+05)
+Duration: 403.91ms, Total samples = 20ms ( 4.95%)
+Entering interactive mode (type "help" for commands, "o" for options)
+(pprof) top10
+Showing nodes accounting for 20ms, 100% of 20ms total
+Showing top 10 nodes out of 11
+      flat  flat%   sum%        cum   cum%
+      20ms   100%   100%       20ms   100%  syscall.syscall
+         0     0%   100%       20ms   100%  internal/poll.(*FD).Write
+         0     0%   100%       20ms   100%  internal/poll.ignoringEINTRIO (inline)
+         0     0%   100%       20ms   100%  log.(*Logger).output
+         0     0%   100%       20ms   100%  log.Println (inline)
+         0     0%   100%       20ms   100%  main.main
+         0     0%   100%       20ms   100%  os.(*File).Write
+         0     0%   100%       20ms   100%  os.(*File).write (inline)
+         0     0%   100%       20ms   100%  runtime.main
+         0     0%   100%       20ms   100%  syscall.Write (inline)
+(pprof)

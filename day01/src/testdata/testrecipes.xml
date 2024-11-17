@@ -1,0 +1,34 @@
+<recipes>
+    <cake>
+        <name>Chocolate Cake</name>
+        <stovetime>1h</stovetime>
+        <ingredients>
+            <item>
+                <itemname>Flour</itemname>
+                <itemcount>2</itemcount>
+                <itemunit>cups</itemunit>
+            </item>
+            <item>
+                <itemname>Sugar</itemname>
+                <itemcount>1.5</itemcount>
+                <itemunit>cups</itemunit>
+            </item>
+        </ingredients>
+    </cake>
+    <cake>
+        <name>Carrot Cake</name>
+        <stovetime>1h 15m</stovetime>
+        <ingredients>
+            <item>
+                <itemname>Carrot</itemname>
+                <itemcount>3</itemcount>
+                <itemunit>pieces</itemunit>
+            </item>
+            <item>
+                <itemname>Flour</itemname>
+                <itemcount>2</itemcount>
+                <itemunit>cups</itemunit>
+            </item>
+        </ingredients>
+    </cake>
+</recipes>
